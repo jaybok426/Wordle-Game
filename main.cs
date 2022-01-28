@@ -31,21 +31,28 @@ class Program {
         //if letter is in right place?
         Console.WriteLine("G");
         NumberOfRightLetters += 1;
+        }else{
+      Console.WriteLine("B");
         }
         if (UserhasGuess[2] == ThirdLetter){
         //if letter is in right place?
         Console.WriteLine("G");
         NumberOfRightLetters += 1;
-        }
+        }else{
+      Console.WriteLine("B");
         if (UserhasGuess[3] == ForthLetter){
         //if letter is in right place?
         Console.WriteLine("G");
         NumberOfRightLetters += 1;
+        }else
+      Console.WriteLine("B");
         }
         if (UserhasGuess[4] == FifthLetter){
         //if letter is in right place?
         Console.WriteLine("G");
         NumberOfRightLetters += 1;
+        }else{
+      Console.WriteLine("B");
         }
         //WonGame = true;
       }
