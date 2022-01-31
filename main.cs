@@ -15,7 +15,7 @@ class Program {
     //Read in the user's word
     do{
       NumberOfRightLetters = 0;
-    Console.WriteLine("Guess the word");
+    Console.WriteLine("Guess the word, G for correct letter, B for wrong letter.");
     string UserhasGuess = Console.ReadLine();
     Guesses--;
     if (Guesses == 0){
